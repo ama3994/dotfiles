@@ -7,11 +7,12 @@ set expandtab
 set shiftwidth=4
 
 syntax on "Syntax highlighting
-colorscheme evening "Set color scheme
+colorscheme murphy "Set color scheme
 
 set nocompatible "Fix backspace and arrow key behavior
 set backspace=2
 set cursorline
+set vb
 
 noremap <leader>r :source ~/.vimrc<cr>:filetype detect<cr>:echo 'vimrc reloaded'<cr>='istar'
 
